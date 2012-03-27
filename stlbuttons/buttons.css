@@ -1,0 +1,137 @@
+/*
+	Estilos definidos para los botones de la plataforma Groupon.cl
+	y admingGroupon
+	
+	autor: Groupon-team
+*/
+
+body{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	
+}
+/* General settings */
+
+a.stl-buttons, input[type="button"].stl-buttons, input[type="submit"].stl-buttons{
+	background-image: url('http://www.sebaduran.com/stlbuttons/bk-buttons.png');
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 1px 1px 2px #000000;
+	filter: dropshadow(color=#000000, offx=1, offy=1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+	padding: 5px 10px;
+	font-size: 12px;
+	border-width: 1px;
+	border-style: solid;
+	cursor:pointer;
+	background-repeat:no-repeat;
+}
+
+	a.stl-buttons:hover, input[type="button"].stl-buttons:hover, input[type="submit"].stl-buttons:hover{
+	 	-webkit-box-shadow: inset 1px 1px 5px 1px rgba(9, 9, 9, 0.3);
+		-moz-box-shadow: inset 1px 1px 5px 1px rgba(9, 9, 9, 0.3);
+		box-shadow: inset 1px 1px 5px 1px rgba(9, 9, 9, 0.3); 	
+	}
+
+a.stl-buttons.small-button, input[type="button"].stl-buttons.small-button, input[type="submit"].stl-buttons.small-button{
+	font-size:10px;
+	padding:3px 5px;
+}
+
+a.stl-buttons.bistl-button, input[type="button"].stl-buttons.bistl-button, input[type="submit"].stl-buttons.bistl-button{
+	font-size:13px;
+	padding:10px 15px;
+}
+
+/* Primary button */
+
+	a.stl-buttons.primary-button, input[type="button"].stl-buttons.primary-button, input[type="submit"].stl-buttons.primary-button{
+	 	background-position: 0 -21px;	
+	 	border-color:#3f8c23;
+	}
+	
+	a.stl-buttons.primary-button:hover, input[type="button"].stl-buttons.primary-button:hover, input[type="submit"].stl-buttons.primary-button:hover{
+	 	background-position: 0 -77px;	
+	}
+	
+/* Secondary button */
+
+	a.stl-buttons.secondary-button, input[type="button"].stl-buttons.secondary-button, input[type="submit"].stl-buttons.secondary-button{
+	 	background-position: 0 -131px;	
+	 	border-color:#2b2b2b;
+	}
+	
+	a.stl-buttons.secondary-button:hover, input[type="button"].stl-buttons.secondary-button:hover, input[type="submit"].stl-buttons.secondary-button:hover{
+	 	background-position: 0 -189px;	
+	}
+	
+/* Option button */
+
+	a.stl-buttons.option-button, input[type="button"].stl-buttons.option-button, input[type="submit"].stl-buttons.option-button{
+	 	background-position: 0 -245px;	
+	 	border-color:#999999;
+	}
+	
+	a.stl-buttons.option-button:hover, input[type="button"].stl-buttons.option-button:hover, input[type="submit"].stl-buttons.option-button:hover{
+	 	background-position: 0 -301px;	
+	}
+	
+/* Cancel button */
+
+	a.stl-buttons.error-button, input[type="button"].stl-buttons.error-button, input[type="submit"].stl-buttons.error-button{
+	 	background-position: 0 -358px;	
+	 	border-color:#850a0a;
+	}
+	
+	a.stl-buttons.error-button:hover, input[type="button"].stl-buttons.error-button:hover, input[type="submit"].stl-buttons.error-button:hover{
+	 	background-position: 0 -414px;	
+	}
+
+
+/* bistl-button */
+
+	/* Primary button */
+	
+		a.stl-buttons.primary-button.bistl-button, input[type="button"].stl-buttons.primary-button.bistl-button, input[type="submit"].stl-buttons.primary-button.bistl-button{
+		 	background-position: 0 -10px;	
+		 	border-color:#3f8c23;
+		}
+		
+		a.stl-buttons.primary-button.bistl-button:hover, input[type="button"].stl-buttons.primary-button.bistl-button:hover, input[type="submit"].stl-buttons.primary-button.bistl-button:hover{
+		 	background-position: 0 -61px;	
+		}
+		
+	/* Secondary button */
+	
+		a.stl-buttons.secondary-button.bistl-button, input[type="button"].stl-buttons.secondary-button.bistl-button, input[type="submit"].stl-buttons.secondary-button.bistl-button{
+		 	background-position: 0 -120px;	
+		 	border-color:#2b2b2b;
+		}
+		
+		a.stl-buttons.secondary-button.bistl-button:hover, input[type="button"].stl-buttons.secondary-button.bistl-button:hover, input[type="submit"].stl-buttons.secondary-button.bistl-button:hover{
+		 	background-position: 0 -177px;	
+		}
+		
+	/* Option button */
+	
+		a.stl-buttons.option-button.bistl-button, input[type="button"].stl-buttons.option-button.bistl-button, input[type="submit"].stl-buttons.option-button.bistl-button{
+		 	background-position: 0 -224px;	
+		 	border-color:#999999;
+		}
+		
+		a.stl-buttons.option-button.bistl-button:hover, input[type="button"].stl-buttons.option-button.bistl-button:hover, input[type="submit"].stl-buttons.option-button.bistl-button:hover{
+		 	background-position: 0 -290px;	
+		}
+		
+	/* Cancel button */
+	
+		a.stl-buttons.error-button.bistl-button, input[type="button"].stl-buttons.error-button.bistl-button, input[type="submit"].stl-buttons.error-button.bistl-button{
+		 	background-position: 0 -347px;	
+		 	border-color:#850a0a;
+		}
+		
+		a.stl-buttons.error-button.bistl-button:hover, input[type="button"].stl-buttons.error-button.bistl-button:hover, input[type="submit"].stl-buttons.error-button.bistl-button:hover{
+		 	background-position: 0 -403px;	
+		}

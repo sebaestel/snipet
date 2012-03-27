@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Basic tooltip</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="jquery.one.js"></script>
+	    <script type="text/javascript">  
+			$(document).ready(function(){    
+			    $(".tooltip").stltooltip();  		  
+			});
+	    </script>  
+	    <style>
+
+	    	body{
+	    		font-family:Helvetica;
+	    	}
+
+	    	.tooltip{
+	    		color:red;
+	    		cursor:pointer;
+	    	}
+
+	    	#stltooltip{
+			    padding: 3px;
+			    position: absolute;
+			    width: 196px;
+			    color:#fff;
+			    display:none;
+	    	}
+
+		    	.stltooltiphead, .stltooltipcontent, .stltooltipfooter{
+		    		background-image: url("sprite.png");
+		    		background-repeat:no-repeat;
+		    	}
+
+		    	.stltooltipcontent{
+				    background-repeat: repeat-y;
+				    float: left;
+				    padding: 5px;
+				    width: 186px;
+				    text-align:center;
+				    font-size:12px;
+		    	}
+
+		    	.stltooltipcontent b{
+		    		color:#00abca;
+		    	}
+
+		    	.stltooltiphead{
+				    background-position: -198px 0;
+				    float: left;
+				    height: 9px;
+				    width: 100%;	    	
+ 				}
+
+		    	.stltooltipfooter{
+				    background-position: -394px -1px;
+				    float: left;
+				    height: 19px;
+				    width: 100%;
+		    	}
+
+	    </style>
+
+
+
+</head>  
+<body>  
+	<h1>tooltip</h1>
+<p>Lorem Ipsum is <span class="tooltip" longdesc="simply" title="hola">simply</span> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into <span class="tooltip" longdesc="<b>bolder</b> <i>italic</i>">electronic</span> typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</body> 
+
+</html>
