@@ -41,6 +41,11 @@ a.stl-buttons.bistl-button, input[type="button"].stl-buttons.bistl-button, input
 	padding:10px 15px;
 }
 
+a.stl-buttons.small-button, input[type="button"].stl-buttons.small-button, input[type="submit"].stl-buttons.small-button{
+	font-size:10px;
+	padding:3px 5px;
+}
+
 /*neutral */
 a.stl-buttons.bistl-button.stl-buttons-neutral, input[type="button"].stl-buttons.bistl-button.stl-buttons-neutral, input[type="submit"].stl-buttons.bistl-button.stl-buttons-neutral{
 	background-image:none;
