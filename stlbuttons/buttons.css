@@ -12,7 +12,7 @@ body{
 /* General settings */
 
 a.stl-buttons, input[type="button"].stl-buttons, input[type="submit"].stl-buttons{
-	background-image: url('http://www.sebaduran.com/stlbuttons/bk-buttons.png');
+	background-image: url('http://sebaduran.com/stlbuttons/bk-buttons.png');
 	text-align: center;
 	text-decoration: none;
 	color: #ffffff;
@@ -35,15 +35,27 @@ a.stl-buttons, input[type="button"].stl-buttons, input[type="submit"].stl-button
 		box-shadow: inset 1px 1px 5px 1px rgba(9, 9, 9, 0.3); 	
 	}
 
-a.stl-buttons.small-button, input[type="button"].stl-buttons.small-button, input[type="submit"].stl-buttons.small-button{
-	font-size:10px;
-	padding:3px 5px;
-}
 
 a.stl-buttons.bistl-button, input[type="button"].stl-buttons.bistl-button, input[type="submit"].stl-buttons.bistl-button{
 	font-size:13px;
 	padding:10px 15px;
 }
+
+/*neutral */
+a.stl-buttons.bistl-button.stl-buttons-neutral, input[type="button"].stl-buttons.bistl-button.stl-buttons-neutral, input[type="submit"].stl-buttons.bistl-button.stl-buttons-neutral{
+	background-image:none;
+	border:none;
+	color:#939393;
+	text-shadow: 0px 0px 0px #fff;
+	filter: dropshadow(color=#fff, offx=0, offy=0);
+}
+
+a.stl-buttons.bistl-button.stl-buttons-neutral:hover, input[type="button"].stl-buttons.bistl-button.stl-buttons-neutral:hover, input[type="submit"].stl-buttons.bistl-button.stl-buttons-neutral:hover{
+	-webkit-box-shadow: inset 1px 1px 5px 1px #ffffff;
+	-moz-box-shadow: inset 1px 1px 5px 1px #ffffff;
+	box-shadow: inset 1px 1px 5px 1px #ffffff;
+}
+
 
 /* Primary button */
 
@@ -81,7 +93,7 @@ a.stl-buttons.bistl-button, input[type="button"].stl-buttons.bistl-button, input
 /* Cancel button */
 
 	a.stl-buttons.error-button, input[type="button"].stl-buttons.error-button, input[type="submit"].stl-buttons.error-button{
-	 	background-position: 0 -358px;	
+	 	background-position: 0 -357px;	
 	 	border-color:#850a0a;
 	}
 	
@@ -100,13 +112,13 @@ a.stl-buttons.bistl-button, input[type="button"].stl-buttons.bistl-button, input
 		}
 		
 		a.stl-buttons.primary-button.bistl-button:hover, input[type="button"].stl-buttons.primary-button.bistl-button:hover, input[type="submit"].stl-buttons.primary-button.bistl-button:hover{
-		 	background-position: 0 -61px;	
+		 	background-position: 0 -59px;	
 		}
 		
 	/* Secondary button */
 	
 		a.stl-buttons.secondary-button.bistl-button, input[type="button"].stl-buttons.secondary-button.bistl-button, input[type="submit"].stl-buttons.secondary-button.bistl-button{
-		 	background-position: 0 -120px;	
+		 	background-position: 0 -123px;	
 		 	border-color:#2b2b2b;
 		}
 		
@@ -128,10 +140,95 @@ a.stl-buttons.bistl-button, input[type="button"].stl-buttons.bistl-button, input
 	/* Cancel button */
 	
 		a.stl-buttons.error-button.bistl-button, input[type="button"].stl-buttons.error-button.bistl-button, input[type="submit"].stl-buttons.error-button.bistl-button{
-		 	background-position: 0 -347px;	
+		 	background-position: 0 -345px;	
 		 	border-color:#850a0a;
 		}
 		
 		a.stl-buttons.error-button.bistl-button:hover, input[type="button"].stl-buttons.error-button.bistl-button:hover, input[type="submit"].stl-buttons.error-button.bistl-button:hover{
 		 	background-position: 0 -403px;	
+		}	
+
+/* ico button */
+	
+	a.stl-buttons.ico, input[type="button"].stl-buttons.ico, input[type="submit"].stl-buttons.ico{
+		background-position: right -4px!important;	
+	 	padding-right:35px;		
+	}
+	a.stl-buttons.primary-button.ico:hover, input[type="button"].stl-buttons.primary-button.ico:hover, input[type="submit"].stl-buttons.primary-button.ico:hover{
+		background-position: right -62px!important;	
+	}
+
+		/* Cancel button */
+	
+		a.stl-buttons.error-button.bistl-button.ico, input[type="button"].stl-buttons.error-button.bistl-button.ico, input[type="submit"].stl-buttons.error-button.bistl-button.ico{
+		 	background-position: right -344px!important;	
+		 	border-color:#850a0a;
 		}
+		
+		a.stl-buttons.error-button.bistl-button.ico:hover, input[type="button"].stl-buttons.error-button.bistl-button.ico:hover, input[type="submit"].stl-buttons.error-button.bistl-button.ico:hover{
+		 	background-position: right -401px!important;	
+		}	
+
+
+	/* Secondary button */
+	
+		a.stl-buttons.secondary-button.bistl-button.ico, input[type="button"].stl-buttons.secondary-button.bistl-button.ico, input[type="submit"].stl-buttons.secondary-button.bistl-button.ico{
+		 	background-position: right -118px!important;	
+		 	border-color:#2b2b2b;
+		}
+		
+		a.stl-buttons.secondary-button.bistl-button.ico:hover, input[type="button"].stl-buttons.secondary-button.bistl-button.ico:hover, input[type="submit"].stl-buttons.secondary-button.bistl-button.ico:hover{
+		 	background-position: right -175px!important;	
+		}
+		
+	/* Option button */
+	
+		a.stl-buttons.option-button.bistl-button.ico, input[type="button"].stl-buttons.option-button.bistl-button.ico, input[type="submit"].stl-buttons.option-button.bistl-button.ico{
+		 	background-position: right -230px!important;	
+		 	border-color:#999999;
+		}
+		
+		a.stl-buttons.option-button.bistl-button.ico:hover, input[type="button"].stl-buttons.option-button.bistl-button.ico:hover, input[type="submit"].stl-buttons.option-button.bistl-button.ico:hover.{
+		 	background-position: right -287px!important;	
+		}
+
+
+		div#stliptionscontent{
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;	
+			padding:10px;
+			position: absolute;
+			background-color:#fff;
+			z-index:9999;
+			display:none;
+			border:1px solid #d7d7d7;
+		}
+
+		img#stlindicator{
+		    bottom: -10px;
+		    float: left;
+		    position: absolute;
+		}
+
+		div#optionscontentbuttons{
+			float: left; 
+			margin: 10px 0; 
+			width: 100%;
+			text-align:right;
+		}		
+
+		div#optionscontentbuttons{
+			float: left; 
+			margin: 10px 0; 
+			width: 100%;
+		}
+
+		div#optionscontentbuttons .stl-buttons{
+			margin-left:10px;
+		}
+
+		div#stliptionscontainer{
+			font-size:13px;
+		}
+		
