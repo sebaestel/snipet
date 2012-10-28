@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />        
+        <meta name="viewport" content="width-device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />    
+        <title>jQuery tweetTip - Sebaduran</title>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>   
+        <script type="text/javascript" src="jquery.tweettip.js"></script>   
+        <script>
+        $(document).ready(function(){
+            $("a").tweetTip();
+        })
+        </script>
+
+        <style>
+        .tweetTipContent{
+            padding:5px;
+            background-color:#ddd;
+            border:1px solid rgba(0,0,0,0.8);
+            min-width:220px;
+            max-width: 320px;
+            position:absolute;
+            margin-left: 5px;
+            margin-top:-20px;
+            line-height:14px!important;
+            box-shadow:  0px 0px 5px 1px rgba(0, 0, 0, 0.4);    
+        }    
+
+            .tweetTipContent a{
+                font-size:0.8em;
+            }
+
+            .tweetTipContent figure{
+                width:40px!important;
+                height: 40px!important;
+                border:2px solid #000;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 5px;
+                margin:0px;
+
+            }
+                .tweetTipContent figure img{
+                    width: 100%;
+                }    
+
+            .tweetTipContent .lastTweet{
+                font-size: 0.8em;
+            }
+
+           .tweetTipContent strong{
+                font-size: 1.4em;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>TweetTip</h1>
+
+
+        Lorem Ipsum is simply <a href="http://www.twitter.com/seba_estel_">@seba_estel_</a> text of the printing and typesetting industry. Lorem Ipsum has been the industry's <a href="http://www.twitter.com/lokomedel">@lokomedel</a> standard dummy text ever since the 1500s, when an unknown printer took a <a href="http://www.twitter.com/html5">@html5</a> galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="http://www.twitter.com/firefox">@firefox</a> but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <a href="http://www.twitter.com/twitter">@twitter</a>Aldus PageMaker including versions of Lorem Ipsum.
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </body>
+</html>
+
