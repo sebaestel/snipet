@@ -27,7 +27,7 @@ $.fn.tweetTip = function(options){
             $(this).attr('tweettipid',tweetTipId)       
          
             // utilizamos jquery con la api de twitter; devuelve un único resultado:
-            $.getJSON('https://twitter.com/statuses/user_timeline.json?screen_name='+username+'&count=1&callback=?', function(data) {
+            $.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name='+username+'&count=1&callback=?', function(data) {
                 var tweet = data[0].text;
                 $('.tweetTipContent #'+username).html('<strong>"</strong>'+tweet+'<strong>"</strong>');
             }); 
@@ -55,5 +55,6 @@ $.fn.tweetTip = function(options){
    });
 
 };  
+
 
 
