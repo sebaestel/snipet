@@ -1,3 +1,19 @@
+/*
+
+http://blog.sebaduran.com/2012/09/24/simple-plugin-para-compartir-en-redes-sociales/
+
+version:    0.2
+date:       10/06/2012
+author:     Sebastian Duran
+contact:    yo@sebaduran.com, www.sebaduran.com, @seba_estel_
+
+Licencia Creative Commons
+Este obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Unported.
+http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es
+
+*/
+
+
 $.fn.rsOptions = function(options){
         var opts = options;
 
